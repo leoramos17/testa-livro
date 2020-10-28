@@ -1,0 +1,548 @@
+{
+  "id": "2659c47d-66c8-49be-8fd3-d1bab3613adc",
+  "version": "2.0",
+  "name": "TESTE BLUESOFT",
+  "url": "https://www.submarino.com.br",
+  "tests": [{
+    "id": "a8a053e2-0477-4e21-802c-f297b17e73ca",
+    "name": "BUSCA LIVRO SUBMARINO",
+    "commands": [{
+      "id": "6e653893-1904-47fc-b4db-474f928497d9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44f329a1-646c-430d-aaec-62e54a899f75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a910287a-e060-4d08-9b85-eeae37547abc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.usr-icon-wrapper",
+      "targets": [
+        ["css=.usr-icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='h_usr-link']/span", "xpath:idRelative"],
+        ["xpath=//span[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9993232d-14b0-4044-845b-bb801271c6ef",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.usr-icon-wrapper",
+      "targets": [
+        ["css=.usr-icon-wrapper", "css:finder"],
+        ["xpath=//a[@id='h_usr-link']/span", "xpath:idRelative"],
+        ["xpath=//span[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd4439e-8e22-4947-889d-10f363d0902a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,115)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "671c2bad-8969-4087-a9d7-a97f81a8cce3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,477)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9c5a4b6-7575-4e72-b78d-b49fb06fb114",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,993)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "415b11bb-b4e8-41a4-8fb6-dd8020b9122c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1231)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e15da54d-ba4f-400e-9b52-a896ad239308",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1524)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c91b8706-48cb-4923-91a7-ab65305868d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ColUI-gjy0oc-0:nth-child(4) .ColUI-gjy0oc-0 > .spacey-image .Image-sc-1m5klhe-0",
+      "targets": [
+        ["css=.ColUI-gjy0oc-0:nth-child(4) .ColUI-gjy0oc-0 > .spacey-image .Image-sc-1m5klhe-0", "css:finder"],
+        ["xpath=//img[@alt='LIVRO DO DIA: Todos os dias um novo livro com uma super oferta pra você aproveitar!']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div[2]/div/div[4]/div/div/div/a/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div/div/div/a/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f373a7e-f12e-4c71-80a6-7453d11130b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-main-area__ProductBox-wc8uq1-2",
+      "targets": [
+        ["css=.product-main-area__ProductBox-wc8uq1-2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/section/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4b308f0-d1ad-4460-bfb9-71e9c9a6ad6f",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=product-name-default",
+      "targets": [
+        ["id=product-name-default", "id"],
+        ["css=#product-name-default", "css:finder"],
+        ["xpath=//h1[@id='product-name-default']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/section/div/div[2]/div/div[2]/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Livro - Quem pensa enriquece: O legado')]", "xpath:innerText"]
+      ],
+      "value": "Livro - Quem pensa enriquece: O legado"
+    }, {
+      "id": "da36d920-1f97-4b0a-83dd-3d6551e07f1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKXKeP",
+      "targets": [
+        ["css=.eKXKeP", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/section/div/div[2]/div/div[2]/div/div[3]/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2213174f-9954-484e-b511-144805b87aae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.author-name__AuthorLink-sc-19niywj-0 > .TextUI-sc-12tokcy-0",
+      "targets": [
+        ["css=.author-name__AuthorLink-sc-19niywj-0 > .TextUI-sc-12tokcy-0", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div/section/div/div[2]/div/div[2]/div/div[3]/span/span/a/span", "xpath:idRelative"],
+        ["xpath=//span/span/a/span", "xpath:position"]
+      ],
+      "value": "Napoleon Hill"
+    }]
+  }, {
+    "id": "4601673f-d232-4ea8-a439-f48ec73d889b",
+    "name": "BUSCA LIVRO AMERICANAS",
+    "commands": [{
+      "id": "d5ecf1dd-7f40-4afa-bc21-f6ce9a17c195",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.americanas.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "464c7a79-ba33-4e32-92fc-8e502abbeba6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d828d51-10ba-41ec-b048-d408e59233cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50a9f723-156a-4a97-ba8b-c2fe157371e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01e194e4-ebb6-4bae-8c21-7d59e951d7cc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2221249f-aaa0-4353-871c-93b4d0b1d370",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70aa7ea9-9a6d-4ee6-a1f8-caa0d8c57982",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9e530b5-3c2f-41bf-8ec6-222dca8ed9fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "951bc95b-1a90-4058-90a3-0c6767cc1b78",
+      "comment": "",
+      "command": "click",
+      "target": "id=lgpd-accept",
+      "targets": [
+        ["id=lgpd-accept", "id"],
+        ["css=#lgpd-accept", "css:finder"],
+        ["xpath=//button[@id='lgpd-accept']", "xpath:attributes"],
+        ["xpath=//div[@id='footer-lgpd']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'continuar e fechar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a98547b-34e2-4146-a141-46c430356ea9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ca83557-396b-4b2b-bfee-3b2e6f3beff2",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "371aa18a-377f-4019-9377-0be03ca5df7e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "239f5264-dff4-4ac5-8d22-d1037d3fd129",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d898107d-1b8c-4983-9b99-a3eaed080d35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc30471f-b7d0-4721-b2d1-e3fdaa1c4506",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7dcb4c0-7f53-4f9a-9b38-064654b6bd9d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee7ae0de-8076-4b57-bfb4-cc526165d9bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e3e8a9-bddc-4031-b4dd-ea853896ebe2",
+      "comment": "",
+      "command": "type",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "livro quem pensa "
+    }, {
+      "id": "7296244b-e72f-41b9-bc37-fda6628abdbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sz-2 .as-img",
+      "targets": [
+        ["css=.sz-2 .as-img", "css:finder"],
+        ["xpath=//img[@alt='Livro - Quem pensa enriquece: O legado']", "xpath:img"],
+        ["xpath=//div[@id='h_search']/div/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03070018-573b-4437-9bcc-7f01370fb336",
+      "comment": "",
+      "command": "click",
+      "target": "css=.src__Title-sc-14j0fsd-0",
+      "targets": [
+        ["css=.src__Title-sc-14j0fsd-0", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Livro - Quem pensa enriquece: O legado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f97b0588-b44e-4147-bc0d-5b71bf1f9c12",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.src__Title-sc-14j0fsd-0",
+      "targets": [
+        ["css=.src__Title-sc-14j0fsd-0", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Livro - Quem pensa enriquece: O legado')]", "xpath:innerText"]
+      ],
+      "value": "Livro - Quem pensa enriquece: O legado"
+    }, {
+      "id": "22dc7b32-a55f-4a32-abf4-daf52036d133",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,128)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78525b13-ddf8-47ab-a8b3-9a15fc9fba68",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,585)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4141e3e9-ab19-410a-9638-00ab758a6a60",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,801)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5610e29-0264-44b1-88ea-956bd2794fa1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1404)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e03e282-5625-48ab-921a-71520b94345a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1768)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a887d18b-73c7-444b-b095-109f04982cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.src__View-wbypax-3:nth-child(13)",
+      "targets": [
+        ["css=.src__View-wbypax-3:nth-child(13)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[7]/table/tr[13]", "xpath:idRelative"],
+        ["xpath=//tr[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cebb06bb-0b61-43c7-83a3-5e093a6914b5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.src__View-wbypax-3:nth-child(13) > .src__Text-wbypax-4:nth-child(2)",
+      "targets": [
+        ["css=.src__View-wbypax-3:nth-child(13) > .src__Text-wbypax-4:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[7]/table/tr[13]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[13]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Napoleon Hill')]", "xpath:innerText"]
+      ],
+      "value": "Napoleon Hill"
+    }]
+  }, {
+    "id": "5cd1e324-7b2e-47de-91d9-ae882c62e033",
+    "name": "BUSCA LIVRO MAGAZINE LUIZA",
+    "commands": [{
+      "id": "7dfd170b-00ad-4875-960d-a3a2384903b1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dee66a91-b970-43bc-87a7-6186dbc13fe7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ffcb27a-853f-433f-85a6-5017012a4acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo",
+      "targets": [
+        ["css=.logo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b36c5a64-ae24-48e1-9771-37700663919e",
+      "comment": "",
+      "command": "click",
+      "target": "id=inpHeaderSearch",
+      "targets": [
+        ["id=inpHeaderSearch", "id"],
+        ["css=#inpHeaderSearch", "css:finder"],
+        ["xpath=//input[@id='inpHeaderSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/div/header/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ac8992d-8f5c-415b-bfbc-e8c9b8a1af17",
+      "comment": "",
+      "command": "type",
+      "target": "id=inpHeaderSearch",
+      "targets": [
+        ["id=inpHeaderSearch", "id"],
+        ["css=#inpHeaderSearch", "css:finder"],
+        ["xpath=//input[@id='inpHeaderSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/div/header/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "quem pensa enriquece"
+    }, {
+      "id": "c666df5c-aa69-4d60-b559-d3c1544ca547",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=inpHeaderSearch",
+      "targets": [
+        ["id=inpHeaderSearch", "id"],
+        ["css=#inpHeaderSearch", "css:finder"],
+        ["xpath=//input[@id='inpHeaderSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/div/header/div/div/div/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "95b52336-aa3d-4f5b-962c-053db0ca44d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product_0886147 .product-image",
+      "targets": [
+        ["css=#product_0886147 .product-image", "css:finder"],
+        ["xpath=//img[@alt='Livro - Quem Pensa Enriquece - ']", "xpath:img"],
+        ["xpath=//li[@id='product_0886147']/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fab6d0cf-d649-4d5c-95d0-8f34aa49ccad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,101)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f48f1d7e-2d90-4225-97d1-457cc8b185d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.description__product-title",
+      "targets": [
+        ["css=.description__product-title", "css:finder"],
+        ["xpath=//div[@id='anchor-description']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[10]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Livro - Quem Pensa Enriquece')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd4cbbb8-c3e8-4454-9914-353e4c2598c8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.description__product-title",
+      "targets": [
+        ["css=.description__product-title", "css:finder"],
+        ["xpath=//div[@id='anchor-description']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[10]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Livro - Quem Pensa Enriquece')]", "xpath:innerText"]
+      ],
+      "value": "Livro - Quem Pensa Enriquece"
+    }, {
+      "id": "d2a5f86c-05ec-455f-8db2-6ac75154305d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.description__box:nth-child(5) > tbody > tr",
+      "targets": [
+        ["css=.description__box:nth-child(5) > tbody > tr", "css:finder"],
+        ["xpath=//div[@id='anchor-description']/div/table[2]/tbody/tr", "xpath:idRelative"],
+        ["xpath=//div/table[2]/tbody/tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6670eab1-30b5-4b9c-b676-276fbfdd59a8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.description__box:nth-child(5) .description__information-box-right",
+      "targets": [
+        ["css=.description__box:nth-child(5) .description__information-box-right", "css:finder"],
+        ["xpath=//div[@id='anchor-description']/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr/td[2]/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": "Hill, Napoleon"
+    }]
+  }],
+  "suites": [{
+    "id": "47664699-78a6-43d7-9a67-b5bbc876ac8a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a8a053e2-0477-4e21-802c-f297b17e73ca"]
+  }],
+  "urls": ["https://www.submarino.com.br/"],
+  "plugins": []
+}
