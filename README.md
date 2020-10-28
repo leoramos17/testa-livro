@@ -3,7 +3,7 @@
 
 - DESCRIÇÃO: 
 Realizar teste de busca de livro no site https://www.submarino.com.br
-no qual o primerio livro apresentado, seja pesquisado em outros dois sites diferente atraves do ISBN do livro
+no qual o primerio livro apresentado, seja pesquisado em outros dois sites diferentes atraves do ISBN do livro
 e validado se o nome do autor é o mesmo nos demais sites.
 
 - PROGRAMA UTILIZADO: 
@@ -20,5 +20,5 @@ e validado se o nome do autor é o mesmo nos demais sites.
 3 abra o arquivo testa-livro.side
 4 click o icone "Run All Tests"
 
-Se chego até aqui, muito obrigado.
+Se chegou até aqui, muito obrigado.
 Leonardo de Oliveira Ramos
